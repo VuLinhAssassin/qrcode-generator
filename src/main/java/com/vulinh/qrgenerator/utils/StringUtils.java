@@ -1,9 +1,12 @@
 package com.vulinh.qrgenerator.utils;
 
+/**
+ * I borrowed this from Apache Common Lang 3, because I don't want to overload this mini-project with more and more contents.
+ * If you want to use their projects, please modify the pom file.
+ */
 public final class StringUtils {
 
     public static final String EMPTY = "";
-    public static final String EMPTY_LITERAL = "Empty";
 
     private StringUtils() {
         throw new UnsupportedOperationException("Cannot instantiate utility class!");
